@@ -9,6 +9,7 @@ import shared from "../utils/shared";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchCartData } from "../State/Slice/cartSlice";
 
+
 export default function Searchbar() {
   const [query, setQuery] = useState("");
   const [bookList, setBookList] = useState([]);
